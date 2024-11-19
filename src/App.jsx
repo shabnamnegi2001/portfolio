@@ -1,19 +1,18 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
+import LeftLine from './components/LeftLine';
 
 function App() {
 
   return (
    <>
    <Navbar />
+   <div className='grid-cols-1 w-full'>
+    <LeftLine/>
    <Home />
-   <h1 className="text-3xl underline">
-      Hello world!
-    </h1>
+  </div>
    </>
   )
 }
