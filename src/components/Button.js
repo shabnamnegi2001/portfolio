@@ -6,7 +6,7 @@ export const buttonComponents = [
   {
     icon: "/assets/text.svg",
     name: "GitHub",
-  },
+  },.
   {
     icon: "/assets/delete.svg",
     name: "Twitter",
