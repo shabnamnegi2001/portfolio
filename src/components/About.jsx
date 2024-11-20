@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function About() {
   return (
-    <div>
-      
+    <div className='h-screen bg-red-400'>
+     
     </div>
   )
 }

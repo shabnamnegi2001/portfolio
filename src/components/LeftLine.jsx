@@ -1,11 +1,11 @@
-import React from 'react';
+// import React from 'react';
 
-const LeftLine = () => {
-    return (
-        <div className='w-full'>
+// const LeftLine = () => {
+//     return (
+//         <div className='w-full'>
             
-        </div>
-    );
-}
+//         </div>
+//     );
+// }
 
-export default LeftLine;
+// export default LeftLine;

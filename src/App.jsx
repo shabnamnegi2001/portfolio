@@ -2,24 +2,21 @@ import { useState } from 'react'
 import './App.css'
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
-import LeftLine from './components/LeftLine';
 
 function App() {
 
   return (
    
-  <div className='grid grid-flow-col grid-cols-2 h-full w-full '>
+  <div className='grid grid-flow-col grid-cols-[20%_80%] h-full bg-blue-500 '>
 
-   <div className='w-full h-full'>
-    leftsidebar
+   <div className='w-full bg-pink-500 h-full'>
    </div>
-   <div className='w-full h-full'>
-   <Navbar />
-   <div className='grid-cols-1 w-full'>
-    <LeftLine/>
+   {/* <Navbar /> */}
+   
+   <div className=' bg-green-500 w-screen '>
    <Home />
   </div>
-  </div>
+
   </div>
 
   )
