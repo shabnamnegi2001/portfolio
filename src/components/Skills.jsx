@@ -4,7 +4,9 @@ import HatBackground from "./HatBackground";
 
 export default function Skills() {
   return (
-    <div className="h-screen black-line-border px-8 w-full flex items-center relative">
+    <div className="h-screen black-line-border px-8 w-full flex items-center relative swap-line">
+      <HatBackground />
+      
       <div className="w-full h-auto">
       <Heading
         title="Skills."
@@ -37,7 +39,6 @@ export default function Skills() {
         </span>
       </div>
       </div>
-      <HatBackground />
     </div>
   );
 }

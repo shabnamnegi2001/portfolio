@@ -11,7 +11,7 @@
 
 .left-line{
   width: 3px;
-  height: 60%;
+  height: 52%;
   bottom: 0px;
   position: absolute;
   right: -15px;
@@ -39,6 +39,19 @@
   background-color: #4141414a;
 }
 
+.swap-line{
+  scroll-snap-align: start !important;
+  scroll-behavior: smooth;
+}
+.swap-line:first-child{
+  margin-top: 200px !important;
+
+}
+.swap-line:last-child{
+  scroll-snap-align: end !important;
+  margin-bottom: 200px;
+}
+
 .black-line-border{
   border-left: 1px solid #41414145;
 }
@@ -49,9 +62,22 @@
 
 }
 
+#intro-art-svg .hair path {
+  stroke: #FE4A55 !important;
+  opacity: 1 !important;
+  stroke-width: 0.9;
+  stroke-dasharray:100%;
+  stroke-dashoffset: 1000;
+
+  animation : stroke-animation 8s ease-in-out 0.3 forwards;
+  animation-iteration-count: infinite;
+
+}
+
 #intro-art-svg path{
   opacity: 0.4 !important; 
 }
+
 
 
 #iris path {
@@ -77,12 +103,25 @@
 }
 
 
+#full-art .hair path {
+  stroke: #FE4A55 !important;
+  opacity: 1 !important;
+  stroke-width: 0.9;
+  stroke-dasharray:100%;
+  stroke-dashoffset: 1000;
+
+  animation : stroke-animation 8s ease-in-out 0.3 forwards;
+  animation-iteration-count: infinite;
+
+
+}
 #full-art path{
   stroke : grey !important;
   fill: none;
   z-index: 100;
   opacity: 0.3;
 }
+
 
 .hat-svg{
   opacity: 0.6;
@@ -98,6 +137,51 @@
 }
 
 
+.animate_project {
+  
+  z-index: 1000;
+  animation: animate-project 1s ease-in-out;
+  left: 0px !important;
+  top:0px !important;
+  animation-iteration-count: initial;
+  animation-direction: normal;
+  /* transform: translate(0px, 100vh); */
+}
+
+
+.project-image{
+  transition: 1s;
+  border: 4px solid #FE4A55 !important;
+  border-radius: 20px;
+
+}
+.project-image:hover{
+  filter: none !important;
+  opacity: 1 !important;
+  /* right: 260px; */
+  /* z-index: 1000; */
+}
+
+
+.mist{
+  position: absolute;
+  height: 150px;
+  width: 100vw;
+  background-color: rgba(255, 255, 255, 0.427);
+  box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.42);
+  filter: blur(100px) !important;
+  z-index: 10000;
+  
+}
+
+.mist div{
+  height: 150px;
+  background-color: white;
+}
+
+.footer-mist{
+  bottom: 0px;
+}
 
 
 @keyframes animate_intro_art {
@@ -106,4 +190,22 @@
     translate:  -20px 10px;
   }
  
+}
+
+@keyframes stroke-animation {
+  
+  50%{
+    stroke-dashoffset: 35%;
+  }
+}
+
+@keyframes animate-project {
+  
+   
+  50%{
+    width: 100vw !important;
+    height: 100vh !important;
+  
+  }
+
 }
