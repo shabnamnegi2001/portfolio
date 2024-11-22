@@ -24,7 +24,7 @@ const IntroArt = () => {
 
   return (
     <svg
-      className="w-full h-full"
+      className="w-full h-full intro-art-entry"
       width="710"
       height="849"
       viewBox="0 0 710 849"

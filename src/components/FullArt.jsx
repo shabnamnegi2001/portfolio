@@ -1,6 +1,14 @@
-import React from "react";
+import React, {useEffect} from "react";
+import {
+  enable as enableDarkMode,
+  disable as disableDarkMode,
+  auto as followSystemColorScheme,
+  exportGeneratedCSS as collectCSS,
+  isEnabled as isDarkReaderEnabled
+} from 'darkreader';
 
 const FullArt = () => {
+ 
   return (
     <svg
       width="772"

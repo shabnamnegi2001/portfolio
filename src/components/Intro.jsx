@@ -14,31 +14,31 @@ export default function Intro() {
             <HatB sx={{transform : 'translate(-650px, 660px)'}} />
 
         </div>
-      <div className="flex-none w-1/2 h-1/4 relative p-2.5 items-center justify-center m-auto  ">
-        <p className="text-2xl">Hi, there</p>
+      <div className="flex-none w-1/2 h-1/3 relative p-2.5 items-center justify-center m-auto  ">
+        <p className="heading2" style={{fontSize : '2rem', color : 'grey', fontWeight : 'normal'}}>Hey!, </p>
         
         <Heading
           width={1000}
-          height={210}
-          title="Shabnam Negi"
+          height={20}
+          title="It's Shabnam"
           cls="text-p_color"
           color="#FAED55"
-          size="134rem"
+          // size="14rem"
           scale={5}
           
           sx={{
-            fontSize: "4.6rem",
+            fontSize: "5rem",
             position : "relative",
 
           }}
         />
-        <p className="text-4xl my-2">I&apos;m a Learner</p>
+        <p className="heading2 " style={{fontSize : '3rem'}}>I&apos;m a Web Developer</p>
 
         <span className="flex gap-4 my-3 text-4xl items-center">
-          <a className="hover:text-p_color cursor-pointer">
+          <a className="text-p_color hover:text-s_color cursor-pointer icon" href="https://github.com/shabnamnegi2001">
             <FaGithub />
           </a>
-          <a className="hover:text-p_color cursor-pointer">
+          <a className=" text-p_color hover:text-s_color cursor-pointer icon" href="https://www.linkedin.com/in/shabnam-negi-b25743338/">
             <BsLinkedin />
           </a>
         </span>

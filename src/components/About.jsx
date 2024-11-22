@@ -17,12 +17,13 @@ export default function About() {
             }}
           />
           <p className="text-2xl text-s_color">
-            Hey 👋, my name is Shabnam Negi , a self-taught passionate Full
-            stack developer from India, based in Uttarakhand with proven
-            technical, organizational, and communication skills, working with
-            Agile and designing software solutions. Offering strong React skills
-            and working experience with SQL, Python, Django, JavaScript
-            frameworks, and many more.
+            Hi, I'm a freshly minted web developer who's spent more time
+            debugging than sleeping (and oddly, I kind of enjoy it). Armed with
+            HTML, CSS, and JavaScript, I’m on a mission to make the web
+            prettier, faster, and maybe just a little less broken. When I'm not
+            wrestling with code or Googling error messages, you’ll find me
+            pretending to understand Stack Overflow memes. Let’s build something
+            cool (and hope it works on the first try)!
           </p>
         </div>
         <div>

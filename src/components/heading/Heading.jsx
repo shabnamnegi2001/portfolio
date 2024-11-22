@@ -22,7 +22,8 @@ const SpanList = function (props) {
                       .map((word) => {
                         return (
                           <span
-                            style={{ wordBreak: "keep-all" }}
+                          className="bounce-text"
+                            style={{ wordBreak: "keep-all", fontFamily : 'inherit', fontWeight : 'bold' }}
                             key={word}
                           >
                             {word}{" "}
@@ -47,7 +48,7 @@ export default function Heading(props) {
   const t_list = title.split("\n");
 
   return (
-    <h1 style={{ ...sx}} className={cls} >
+    <h1 style={{ ...sx, fontFamily : "'Fredoka One', cursive"}} className={`${cls} one-time-bounce`} >
       <SpanList data={t_list} />
     </h1>
   );

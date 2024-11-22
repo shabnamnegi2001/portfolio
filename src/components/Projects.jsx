@@ -16,9 +16,14 @@ const Projects = () => {
           cls="text-p_color"
           sx={{
             fontSize: "3.4rem",
+            transform : "translateY(300px)"
           }}
         />
-        <div className="px-4">
+        <div className="px-4" 
+        style={{
+          scrollSnapType : "y mandatory"
+        }}
+        >
           {
             projects?.map((project) => {
 
