@@ -3,7 +3,7 @@ import {HatA, HatB, HatC} from './Hats';
 
 const HatBackground = () => {
     return (
-        <div className='absolute w-full h-full '>
+        <div className='absolute w-full h-full' style={{zIndex : 1}}>
             {/* <HatA sx={{transform : 'translate(-200px, 120px)'}} /> */}
             {/* <HatB sx={{transform : 'translate(-200px, 120px)'}} /> */}
             {/* <HatC sx={{transform : 'translate(100px, -20px)'}} /> */}

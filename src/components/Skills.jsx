@@ -7,7 +7,7 @@ export default function Skills() {
     <div className="h-screen black-line-border px-8 w-full flex items-center relative swap-line">
       <HatBackground />
       
-      <div className="w-full h-auto">
+      <div className="w-full h-auto" style={{zIndex : 2}}>
       <Heading
         title="Skills."
         cls="text-p_color"

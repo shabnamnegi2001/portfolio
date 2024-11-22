@@ -10,7 +10,7 @@ const Projects = () => {
 
     <div className="h-auto  black-line-border px-8 w-full flex relative swap-line">
       <HatBackground />
-      <div className="w-full h-auto">
+      <div className="w-full h-auto" style={{zIndex : 10}}>
         <Heading
           title="Projects."
           cls="text-p_color"

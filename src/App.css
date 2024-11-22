@@ -132,7 +132,7 @@
 .one-time-bounce *{
   animation: bounce-onetime 1.5s ease-in-out 1 forwards;
   animation-iteration-count: 1;
-} 
+}  */
 
 
 .one-time-bounce span:nth-of-type(2n + 1){
@@ -146,7 +146,7 @@
 }
 
 .bounce-text:hover {
-  animation: bounce 1.5s ease-in-out infinite;
+  animation: bounce 1.5s ease-in-out infinite !important;
 }
 
 @keyframes bounce-onetime {

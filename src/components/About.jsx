@@ -7,8 +7,8 @@ export default function About() {
   return (
     <div className="h-screen black-line-border px-8 relative w-full swap-line">
       <HatBackground />
-      <div className="flex w-full items-center">
-        <div>
+      <div className="flex w-full items-center" style={{zIndex : 10}} >
+        <div style={{zIndex : 10}}>
           <Heading
             title="About me."
             cls="text-p_color"

@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <div className="h-screen black-line-border px-8 relative w-full swap-line flex items-center">
       <HatBackground />
-      <div className="w-full items-center">
+      <div className="w-full items-center" style={{zIndex : 2}} >
         <Heading
           title="Contact ."
           cls="text-p_color"

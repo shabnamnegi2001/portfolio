@@ -8,6 +8,7 @@ import { FaJs } from "react-icons/fa";
 import { IoLogoCss3 } from "react-icons/io";
 import { IoLogoHtml5 } from "react-icons/io";
 import { SiRadixui } from "react-icons/si";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 
 
@@ -85,8 +86,12 @@ const ProjectCard = (props) => {
           cls="text-s_color"
           sx={{
             fontSize: "3.2rem",
+            display : 'inline-flex'
           }}
         />
+        <a  className="text-p_color" style={{display : 'inline-flex'}} href={source}>
+        <FaExternalLinkAlt />
+        </a>
         <p className="w-3/5 text-gray-800 text-xl">{description}</p>
         <p>
         </p>
