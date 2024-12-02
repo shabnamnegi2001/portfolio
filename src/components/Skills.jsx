@@ -37,6 +37,9 @@ export default function Skills() {
         <span size="1rem" type="s">
           Figma
         </span>
+        <span size="1rem" type="s">
+          SocketIO,&nbsp;WebSockets
+        </span>
       </div>
       </div>
     </div>

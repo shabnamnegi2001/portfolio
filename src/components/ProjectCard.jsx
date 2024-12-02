@@ -9,6 +9,7 @@ import { IoLogoCss3 } from "react-icons/io";
 import { IoLogoHtml5 } from "react-icons/io";
 import { SiRadixui } from "react-icons/si";
 import { FaExternalLinkAlt } from "react-icons/fa";
+import { TbBrandSocketIo } from "react-icons/tb";
 
 
 
@@ -34,7 +35,8 @@ const ProjectCard = (props) => {
     "Javascript" : <FaJs className="icon" title="Javascript" />,
     "CSS" : <IoLogoCss3  className="icon" title="CSS"/>,
     "HTML" : <IoLogoHtml5 className="icon" title="HTML" />,
-    "Radix UI" : <SiRadixui  className="icon" title="Radix UI" />
+    "Radix UI" : <SiRadixui  className="icon" title="Radix UI" />,
+    "SocketIO" : <TbBrandSocketIo className="icon" title="SocketIO" />
   }
 
   }, [])
